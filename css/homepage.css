@@ -38,7 +38,7 @@ nav ul a{
   .explorebutton{
     background-color: none;
     border-radius: 30px;
-    border: 2px solid #E6D6B5;
+    border: 3px solid #E6D6B5;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 12px;
@@ -53,7 +53,7 @@ nav ul a{
   .exhibitionbutton{
     background-color: none;
     border-radius: 30px;
-    border: 2px solid #E6D6B5;
+    border: 3px solid #E6D6B5;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 12px;
@@ -68,7 +68,7 @@ nav ul a{
   .visitbutton{
     background-color: none;
     border-radius: 30px;
-    border: 2px solid #E6D6B5;
+    border: 3px solid #E6D6B5;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 12px;
@@ -85,10 +85,10 @@ html, body{
     min-width: 100%;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #0E0E0C;
 }
 main{
-    background-color: black;
+    background-color: #0E0E0C;
     width: 100%;
     height: 100%;
     display: flex;
