@@ -225,8 +225,64 @@ h1{
 .kidspic{
     width: 100%;
     margin-top: -5px;
+   
 }
 
+.activebuttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.kidsbutton{
+    background-color: none;
+    border-radius: 30px;
+    border: 2px solid #E6D6B5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  
+}
+
+.kidsbutton:hover{
+    background-color: #E6D6B5;
+    color: black;
+    transition: 300ms;
+}
+
+.teacherbutton{
+    background-color: none;
+    border-radius: 30px;
+    border: 2px solid black;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  
+}
+.teacherbutton:hover{
+    background-color: #E6D6B5;
+    color: black;
+    border: 2px solid #E6D6B5;
+    transition: 300ms;
+}
+
+.researcherbutton{
+    background-color: none;
+    border-radius: 30px;
+    border: 2px solid #E6D6B5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  
+}
+.researcherbutton:hover{
+    background-color: #E6D6B5;
+    color: black;
+    transition: 300ms;
+}
 .teachersection{
     background-color: white;  
 }
