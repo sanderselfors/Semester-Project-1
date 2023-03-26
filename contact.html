@@ -7,6 +7,8 @@
     <meta name="description" content="This is the contactpage" />
     <title>Homepage</title>
     <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <script type="module" defer src="/JS/contact.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -75,39 +77,36 @@
           <h1>Contact us</h1>
           <p>How can we help you?</p>
         </div>
-        <section class="formsection">
-          <div class="contactform">
-            <form action="action_page.php">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Name"
-                required
-              />
-              <label for="name">Name</label><br />
+        <section role="form-section">
+          <p id="message" class="errormessage"></p>
 
-              <input
-                type="text"
-                id="email"
-                name="email"
-                placeholder="Email"
-                required
-              />
-              <label for="email">Email</label><br />
+          <form class="contactform" id="form" autocomplete="on">
+            <div class="formcontainer">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Name" required />
+              <p class="formvalidation" data-id="validationmessage"></p>
+            </div>
 
+            <div class="contactform">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Email" required />
+              <p class="formvalidation" data-id="validationmessage"></p>
+            </div>
+
+            <div class="contactform">
+              <label for="subject">Subject</label>
               <input
-                type="text"
-                id="message"
-                name="message"
+                type="subject"
+                id="subject"
                 placeholder="Message"
                 required
               />
-              <label for="message">Message</label><br />
+              <p class="formvalidation" data-id="validationmessage"></p>
+            </div>
 
-              <input type="submit" value="Send" class="sendbutton" />
-            </form>
-          </div>
+            <button type="reset" class="resetbutton">Reset</button>
+            <button type="submit" class="submitbutton">Send</button>
+          </form>
         </section>
       </section>
 
@@ -177,6 +176,6 @@
         <p>© 2022 Made by Sander Selfors</p>
       </div>
     </footer>
-    <script src="/script.js"></script>
+    <script src="/JS/script.js"></script>
   </body>
 </html>
