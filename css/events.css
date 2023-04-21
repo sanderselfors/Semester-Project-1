@@ -67,7 +67,7 @@ a{
     background-color: #E6D6B5;
 }
 
-@media(max-width:1000px){
+@media(max-width:1100px){
     .hamburger{
         display: block;
         padding-right: 50px;
@@ -159,6 +159,16 @@ a{
   }
 
   .contactbutton:hover{
+    background-color: #E6D6B5;
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: 300ms;
+  }
+  .blogbutton:hover{
     background-color: #E6D6B5;
     color: black;
     padding-top: 2px;
