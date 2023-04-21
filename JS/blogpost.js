@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const postId = urlParams.get('id');
 
 async function fetchPostData() {
-  const response = await fetch(`http://cmscaselfors.flywheelsites.com/wp-json/wp/v2/posts/${postId}`);
+  const response = await fetch(`https://cmscaselfors.flywheelsites.com/wp-json/wp/v2/posts/${postId}`);
   const data = await response.json();
   return data;
 }

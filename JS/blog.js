@@ -1,5 +1,5 @@
 async function fetchData() {
-    const response = await fetch('http://cmscaselfors.flywheelsites.com/wp-json/wp/v2/posts/');
+    const response = await fetch('https://cmscaselfors.flywheelsites.com/wp-json/wp/v2/posts/');
     const data = await response.json();
     const postsElement = document.getElementById('posts');
   
